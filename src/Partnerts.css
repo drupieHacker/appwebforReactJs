@@ -1,0 +1,40 @@
+.cards_Partnerts{
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+.cards_Partnerts figure{
+    width: 30%;
+    margin-left: 3%;
+}
+.cards_Partnerts figure img{
+    width: 100%;
+    display: block;
+    transition: all 0.5s ;
+}
+.cards_Partnerts figure img:hover{
+    margin-top: 10px;
+    transition: all 0.5s ;
+    
+}
+.titlePartnerts h1{
+    background-color:  #0d47a1;
+    margin-top:50px;
+    color: #fafafa;
+    padding: 10px;
+}
+@media (max-width: 600px) {
+    .cards_Partnerts{
+        width: 80%;
+        margin: 0 auto;
+        flex-direction: column;
+       
+    }
+    .cards_Partnerts figure{
+        width: 90%;
+        margin-left:0;
+        margin: 0 auto;
+    }
+  }
